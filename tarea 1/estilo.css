@@ -1,0 +1,138 @@
+#principal {
+    width: 1000px;
+    height: 1000px;
+    background-color: aquamarine;
+    margin: 100px;
+}
+#contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#cara {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+}
+
+.ojo {
+    width: 30px;
+    height: 25px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.ojo.izquierdo {
+    top: 30%;
+    left: 25%;
+}
+
+.ojo.derecho {
+    top: 30%;
+    right: 25%;
+}
+
+#boca {
+    width: 80px;
+    height: 25px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    border-radius: 20px;
+}
+.mejilla {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(209, 68, 91);
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+}
+
+.mejilla.izquierda {
+    left: 13%;
+}
+
+.mejilla.derecha {
+    right: 13%;
+}
+.sombrero {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.sombrero-superior {
+    width: 60px;
+    height: 4px;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 80px solid blue;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.nariz {
+    width: 40px;
+    height: 35px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 55%; 
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.corbata {
+    width: 60px;
+    height: 20px;
+    background-color: green;
+    border-radius: 30%;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.corbata-circulo {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.corbata-circulo.izquierdo {
+    left: 50%;
+}
+
+.corbata-circulo.derecho {
+    right: 50%;
+}
+.oreja {
+    width: 38px;
+    height: 40px;
+    background-color: pink;
+    border-radius: 50%;
+    position: absolute;
+    top: 30%;
+}
+
+.oreja.izquierda {
+    left: -17%;
+}
+
+.oreja.derecha {
+    right: -17%;
+}
